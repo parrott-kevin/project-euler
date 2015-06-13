@@ -1,0 +1,7 @@
+node_modules
+.idea
+.DS_*
+public/dist
+public/src/lib
+*.log
+config/config.json
