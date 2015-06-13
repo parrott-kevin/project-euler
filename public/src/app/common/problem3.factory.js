@@ -12,6 +12,11 @@
     };
 
     function get() {
+      var problem = {
+        number: '3',
+        title: 'Largest prime factor'
+      };
+
       var timeStart = Date.now();
       var question = 600851475143;
       var value = Math.floor(Math.sqrt(question));
@@ -21,10 +26,9 @@
       while (value > 2) {
         if (question % value === 0) {
           if(prime.check(value)) {
-            return {
-              result: value,
-              timer: Date.now() - timeStart
-            };
+            problem.answer = value;
+            problem.timer = Date.now() - timeStart;
+            return problem;
           }
         }
 

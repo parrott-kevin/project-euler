@@ -11,6 +11,11 @@
     };
 
     function get() {
+      var problem = {
+        number: '2',
+        title: 'Even Fibonacci numbers'
+      };
+
       var timeStart = Date.now();
       var result = 0;
       var previousValue = 1;
@@ -24,10 +29,9 @@
         currentValue = tempValue;
       }
 
-      return {
-        result: result,
-        timer: Date.now() - timeStart
-      };
+      problem.answer = result;
+      problem.timer = Date.now() - timeStart;
+      return problem;
     }
 
   }
