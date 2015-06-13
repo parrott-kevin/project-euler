@@ -1,10 +1,36 @@
 <div class="container">
-  <div class="row" ng-repeat="problem in vm.problems">
-    <div class="col-md-3 text-right">
-      {{problem.title}}
-    </div>
-    <div class="col-md-4 text-left">
-      {{problem.answer}}
-    </div>
-  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+          Number
+        </th>
+        <th>
+          Title
+        </th>
+        <th>
+          Answer
+        </th>
+        <th>
+          Elapsed Time (ms)
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="problem in vm.problems">
+        <td>
+          {{problem.number}}
+        </td>
+        <td>
+          {{problem.title}}
+        </td>
+        <td>
+          {{problem.answer}}
+        </td>
+        <td>
+          {{problem.timer}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
