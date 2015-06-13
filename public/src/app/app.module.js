@@ -4,6 +4,7 @@
   angular
     .module('app', [
       'ngRoute',
-      'problem.controller'
+      'problems.controller',
+      'problem1.factory'
     ]);
 })();

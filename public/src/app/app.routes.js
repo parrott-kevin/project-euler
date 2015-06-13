@@ -9,13 +9,13 @@
   function routeConfig($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'app/components/problem/problem.html',
-        controller: 'ProblemController',
+        templateUrl: 'app/components/problems/problems.html',
+        controller: 'ProblemsController',
         controllerAs: 'vm'
       })
       .when('/home', {
-        templateUrl: 'app/components/problem/problem.html',
-        controller: 'ProblemController',
+        templateUrl: 'app/components/problems/problems.html',
+        controller: 'ProblemsController',
         controllerAs: 'vm'
       })
       .otherwise({
