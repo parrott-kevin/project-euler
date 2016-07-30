@@ -1,4 +1,0 @@
-{
-  "verbose": true,
-  "ignore": [".git/*", ".idea/*","node_modules/*", "public/*", "gulpfile.js"]
-}
