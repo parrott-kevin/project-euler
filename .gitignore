@@ -1,7 +1,4 @@
-node_modules
-.idea
+javascript/node_modules
+.vscode
 .DS_*
-public/dist
-public/src/lib
 *.log
-config/config.json
