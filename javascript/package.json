@@ -1,25 +1,20 @@
 {
   "name": "project-euler",
   "version": "1.0.0",
-  "description": "Project Euler",
   "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/parrott-kevin/project-euler.git"
-  },
-  "author": "Kevin Parrott",
+  "author": "Kevin Parrott <parrott.kevin@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/parrott-kevin/project-euler/issues"
+  "scripts": {
+    "test": "jest"
   },
-  "homepage": "https://github.com/parrott-kevin/project-euler#readme",
   "devDependencies": {
-    "eslint": "^3.2.0",
-    "eslint-config-standard": "^5.3.5",
-    "eslint-plugin-promise": "^2.0.0",
-    "eslint-plugin-standard": "^2.0.0"
+    "eslint": "^4.12.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^21.2.1",
+    "jest-junit": "^3.3.0"
   }
 }
