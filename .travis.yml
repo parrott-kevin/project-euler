@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - lts/*
 install: cd javascript && yarn install
-script: cd javascript && yarn test
+script: yarn test
